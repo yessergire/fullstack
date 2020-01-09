@@ -1,0 +1,6 @@
+selain->palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/new_note_spa
+note over palvelin:
+Palvelin vastaa statuskoodilla 201 Created ja palvelin
+ei pyydä uudelleenohjausta ja siksi selain pysyy samalla sivulla.
+end note over palvelin
+palvelin-->selain: HTTP 201 Created
