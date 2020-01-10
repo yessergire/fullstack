@@ -25,7 +25,7 @@ const Statistics = (props) => {
 
     return (
       <>
-        <h1>statistics</h1>
+        <h2>statistics</h2>
         <table>
           <tbody>
             <Statistic text="good" value={props.good}/>
@@ -40,7 +40,7 @@ const Statistics = (props) => {
     )
   } else return (
     <>
-      <h1>statistics</h1>
+      <h2>statistics</h2>
       <p>No feedback given</p>
     </>
   )
